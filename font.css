@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Prompt";
+    font-weight: 300;
+    font-style: normal;
+    src: url("/fonts/Prompt-Light.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Prompt";
+    font-weight: 500;
+    font-style: normal;
+    src: url("/fonts/Prompt-Medium.ttf") format("ttf");
+}
+body .elemnt{
+    font-family: 'Prompt', sans-serif;
+}
