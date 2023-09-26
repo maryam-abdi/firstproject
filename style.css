@@ -1,0 +1,555 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* root  */
+:root{
+    --bgc-page:#F1F3F6;
+    --color-text:#22215B;
+    --color-rain:#567DF4;
+
+    --color-top1:#567DF4;
+    --color-top2:#F8DF61;
+    --color-top3:#4CE364;
+    --color-task: #dff2ff;
+}
+
+body{
+    background-color: var(--bgc-page);
+   
+   
+}
+p{
+    color: #4d4d6e;
+}
+h2{
+    color: var(--color-text);
+  
+}
+h3{
+    color: var(--color-text);
+    
+}
+article:hover{
+    transform: scale(1.03);
+}
+/* elemnt */
+/* .elemnt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 2rem 1rem 2rem;
+    margin: 0rem 2rem 1rem 2rem;
+} */
+    
+   
+.elemnt{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+    grid-column-gap: 5rem;
+  justify-items: center;
+  margin: 0rem 5rem 1rem 5rem;
+  
+}
+
+.elemnt article{
+    background-color: #ffff;
+    width: 400px;
+    height: auto;
+    border-radius: 26px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    padding: 1rem 0.7rem;
+    box-shadow: 3px 3px 15px #ccc;
+}
+.elemnt-two article{
+    padding: 1.5rem 1.5rem;
+}
+.elemnt-tree article{
+    padding: 1.2rem 1.5rem;
+}
+ .elemnt .elemnt--delhi{
+  
+    padding: 1rem 2rem;
+ 
+   
+} 
+
+.elemnt--delhi .delhi--text{
+    margin-bottom: 0.5rem;
+}
+.elemnt--delhi .delhi-air{
+    display: flex;
+    justify-content: center;
+  
+}
+.delhi-air img{
+    margin-right: 0.5rem;
+}
+.delhi-air .delhi--img{
+    width: 60px;
+    height: 30px;
+}
+
+
+
+.elemnt--delhi .delhi h2{
+    color: var(--color-text);
+
+}
+
+.elemnt--delhi p{
+    color: #4d4d6e;
+    font-size: 0.9rem;
+}
+.delhi-Datatime{
+    
+    display: flex;
+    justify-content: space-between;
+} 
+/* biography */
+
+
+.biography .biography-section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.biography-section .part-img{
+    
+width: 64px;
+height: 64px;
+border-radius: 100%;
+
+
+}
+.part-img img{
+    width: 64px;
+    height: 64px;
+}
+
+
+.biography-section .biographi--part {
+
+    margin-left: 1.5rem;
+    color: var(--color-text);
+    
+}
+.biography--about1 , .biography--about2{
+    margin-left: 1.5rem;
+}
+
+.biographi--part p{
+    color: #4d4d6e;
+    font-size: 1rem;
+    
+    
+    
+}
+.biography .biography--about1 h3{
+    color: var(--color-text);
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.biography .biography--about2 h3{
+    color: var(--color-text);
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+
+}
+
+
+/* micointraction */
+.microintraction{
+    height: 300px;
+ 
+}
+
+.microintraction img{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    width:350px ;
+    height: 300px;
+    border-radius: 26px; 
+   
+}
+.microintraction .micro-text{
+    margin-bottom: 1.2rem;
+    padding-left:  0.7rem;
+}
+.microintraction .micro--footer{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+  
+}
+.btn{
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e7ecfc;
+    color: var(--color-text);
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+.btn:hover{
+    transform: scale(1.05);
+}
+.btn--micro{
+    padding: 0rem 2rem;
+   
+}
+/* elemnt-tow */
+.elemnt .elemnt-two{
+display: flex;
+flex-direction: column;
+
+}
+
+
+.connect .connect--img{
+    width: 100%;
+    height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.connect img{
+    width: 30%;
+    
+}
+ .btn--connect{
+    
+     
+     padding: 0.5rem 1.5rem; 
+    
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+} 
+.connect .connect--about{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.connect--about .about{
+    margin-bottom: 0.9rem;
+}
+.connect--about p{
+    text-align: center;
+}
+.icons--connect{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+.icons--connect .icon:hover{
+    transform: scale(1.1);
+}
+
+.icons--connect img{
+width: 25px;
+height: 25px;
+margin: 1.5rem;
+margin-bottom: 2.5rem;
+color: var(--color-text);
+
+
+}
+.coonect--buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 0.5rem;
+}
+.btn-c{
+    padding: 1rem 3rem;
+    background-color: #fff;
+    color: var(--color-text);
+    border: 2.5px solid var(--color-text);
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+   box-shadow: 1px 1px 5px #676792; 
+   margin-right: 0.3rem;
+
+   
+}
+.btn-c:hover{
+    padding: 1rem 3rem;
+    background-color: var(--color-text);
+    color: #ffff;
+    border-radius: 8px;
+    
+}
+
+
+ 
+/* CALENDER */
+
+.Calender{
+    display: flex;
+    flex-direction: column;
+   
+}
+.calender--heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0.8rem;
+}
+.Calender .calender--tabel{
+    display: flex;
+    justify-content: center;
+   
+}
+.calender--tabel td{
+    padding: 0.8rem;
+    
+    color: var(--color-text);
+    font-weight: bold;
+}
+.calender--tabel .td--color{
+    color: #ccc;
+}
+.calender--tabel .td--bgc1{
+    background-color: rgb(235, 233, 233);
+    border-radius: 100%;
+    text-align: center;
+}
+.calender--tabel .td--bgc2{
+    background-color: var(--color-text);
+    color: #fff;
+    border-radius: 100%;
+    text-align: center;
+}
+.calender--tabel .td-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.td--footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.td--footer .td {
+    margin-left: 0.2rem;
+   
+}
+.td--footer .footer-top1{
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border-radius: 100%;
+
+}
+.footer-top2{
+    width: 5px;
+    height: 5px;
+    background-color: var(--color-top2);
+    border-radius: 100%;
+    
+}
+.footer-top3{
+    width: 5px;
+    height: 5px;
+    background-color: var(--color-text);
+    border-radius: 100%;
+}
+/* DOWNLOAD-FILE */
+
+.elemnt-two .Download-file{
+    
+    padding: 0;
+}
+
+.Download-file .Downloading{
+    width: 75%;
+    height: 100px;
+    border-radius: 32px 0 0 32px;
+    background-color: var(--color-top1);
+    
+   
+}
+.Downloading{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  padding: 0.8rem;
+  
+}
+
+.Downloading .about--download {
+    padding: 0.5rem 0.7rem;
+    color: #ffff;
+}
+
+.about--download .text{
+   padding-bottom: 0.3rem;
+}
+.about--download .about--text1{
+    font-weight: 400;
+    color: #F1F3F6;
+}
+.about--download .about--text2{
+    font-weight: 700;
+    color: #F1F3F6;
+}
+.about--download .about--text3{
+   font-weight: 100;
+   color: #F1F3F6;
+
+}
+/* elemnt-tree */
+.elemnt .elemnt-tree{
+    display: flex;
+    flex-direction: column;
+}
+/* search section */
+.elemnt-tree .search{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+
+}
+
+ .search .search--img img{
+    width: 25px;
+    height: 25px;
+    color: var(--color-text);
+
+}
+
+.search .search--input input{
+    
+    padding: 0.5rem ;
+    border: 0;
+    outline: 0;
+    color: var(--color-text);
+    font-size: 1.1rem;
+  
+    
+
+}
+.search--input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+/* Expertise */
+.elemnt-tree .Expertise{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+    
+  
+}
+.Expertise:hover{
+    transform: scale(1.01);
+}
+
+.Expert--part h2{
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+}
+.Expert--part .expert--text{
+   
+    margin-left: 2rem;
+    font-weight: 500;
+  
+}
+.Expert--part .expet1 {
+    color: var(--color-top1);
+    font-size: 1.05rem;
+}
+.Expert--part .expet2 {
+    color: brown;
+    font-size: 1.05rem;
+}
+.Expert--part .expet3 {
+    color: darkolivegreen;
+    font-size: 1.05rem;
+}
+.Expert--part .expet4 {
+   color: lightseagreen;
+    font-size: 1.05rem;
+}
+
+/* get task */
+.get-task{
+    display: flex;
+}
+.get-task .task--icon img{
+ width: 50px;
+ height: 50px;
+ margin-right: 0.7rem;
+
+}
+.task--text .task--text1{
+    font-weight: 700;
+  
+}
+.task--text2{
+    font-weight: 300;
+}
+
+/* task section */
+
+.section-task h2{
+    margin-bottom: 1rem;
+}
+.section-task .tasks{
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+.section-task .task--part{
+    width: 100%;
+    height: 60px;
+background-color:var(--color-task) ;
+border-radius: 12px;
+margin-top: 2rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 2.5rem 1rem;
+}
+.task--part:hover{
+    transform: scale(1.03);
+}
+.task--part img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.task--part .task--part1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.task--part1 img{
+    margin-right: 0.8rem;
+}

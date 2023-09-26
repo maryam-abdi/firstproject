@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="/font.css" />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script>
+      window.onload = function() {
+      
+      var chart = new CanvasJS.Chart("chartContainer", {
+        animationEnabled: true,
+        title: {
+          text: ""
+        },
+        data: [{
+          type: "pie",
+          startAngle: 240,
+          yValueFormatString: "##0.00\"%\"",
+          indexLabel: "{label} {y}",
+          dataPoints: [
+            {y: 35, label: "UI Design"},
+            {y: 35, label: "UX Research"},
+            {y: 15, label: "Design intraction"},
+            {y: 15, label: "Wierframing"},
+           
+          ]
+        }]
+      });
+      chart.render();
+      
+      }
+      </script>
+
+  </head>
+  <body>
+    <section class="elemnt">
+      <section class="elemnt-own">
+        <article class="elemnt--delhi">
+          <p class="delhi--text">new delhi</p>
+          <div class="delhi-Datatime">
+            <div >
+              <h2 class="delhi--text">06:20 AM</h2>
+            </div>
+            <div class="delhi delhi-air">
+              <img src="/images/cloud (1).svg" alt="" />
+             <img src="/images/18° C.svg" class="delhi--img" alt="">
+            </div>
+          </div>
+          <p>Novemaber 10.2020 | Wednsday</p>
+        </article>
+        <article class="biography">
+          <div class="biography-section">
+            <div class="biographi--part part-img">
+              <img src="/images/Profile Image@2x.png" alt="cool boy" />
+            </div>
+            <div class="biographi--part">
+              <p>post</p>
+              <h2>23</h2>
+            </div>
+            <div class="biographi--part">
+              <p>folowers</p>
+              <h2>326</h2>
+            </div>
+            <div class="biographi--part">
+              <p>folowing</p>
+              <h2>120</h2>
+            </div>
+          </div>
+          <div class="biography--about1">
+            <h3>Neelesh Chaudhary</h3>
+            <p>UI/UX Designer</p>
+          </div>
+
+          <div class="biography--about2">
+            <h3>About</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+              nobis voluptas cum sequi modi cupiditate!
+            </p>
+          </div>
+        </article>
+        <article class="microintraction">
+          <img src="/images/Image.png" alt="micro img" />
+          <h2 class="micro-text">Learn microintraction</h2>
+          <p class="micro-text">Monday Jan20 , 2020</p>
+          <p class="micro-text">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Perspiciatis, maxime obcaecati accusantium illo excepturi quod rem
+            laborum incidunt repellat id?
+          </p>
+          <div class="micro--footer">
+            <h3 class="micro-text">Read Full Blog</h3>
+            <button class="btn btn--micro">BLOG</button>
+          </div>
+        </article>
+      </section>
+
+      <section class="elemnt-two">
+        <article class="connect">
+          <div class="connect--img">
+            <img src="/images/Profile Image@3x.png" alt="" />
+            <button class="btn btn--connect">PRO</button>
+          </div>
+
+          <div class="connect--about">
+            <h3 class="about">Neelesh Chaudhary</h3>
+            <p class="about">UI/UX Designer</p>
+            <p class="about">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+              nobis voluptas cum sequi modi cupiditate!
+            </p>
+          </div>
+          <div class="icons--connect">
+            <img src="/images/akar-icons_linkedin-box-fill.svg" class="icon" alt="linkedin image" />
+            
+            <img src="/images/akar-icons_twitter-fill.svg" class="icon" alt="twitter image" />
+           
+            <img src="/images/akar-icons_telegram-fill.svg" class="icon" alt="telegram image" />
+            <img src="/images/akar-icons_instagram-fill.svg" class="icon" alt="instagram image" />
+            <img src="/images/icons8-facebook (1).svg" class="icon" alt="facebook image">
+            
+          </div>
+          <div class="coonect--buttons">
+            <button class="btn-c">Connect</button>
+            <button class="btn-c ">Message</button>
+          </div>
+        </article>
+        <article class="Calender">
+          <div class="calender--heading">
+            <h3>Calender</h3>
+            <h2>Jan 2020</h2>
+          </div>
+          <div class="calender--tabel">
+            <table>
+           <thead>
+            <tr>
+              <td>S</td>
+              <td>M</td>
+              <td>T</td>
+              <td>W</td>
+              <td>T</td>
+              <td>F</td>
+              <td>S</td>
+            </tr>
+           </thead>
+            <tbody>
+              <tr>
+                <td class="td--color">27</td>
+                <td class="td--color">28</td>
+                <td class="td--color">29</td>
+                <td class="td--color">30</td>
+                <td class="td--color">1</td>
+                <td>2</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>5</td>
+                <td class="td--bgc1">6</td>
+                <td>7</td>
+                <td class="td--bgc2">8</td>
+                <td>9</td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td class="td-footer">
+                  <div>15</div>
+                  <div class="td--footer">
+                    <div class="td footer-top1"></div>
+                    <div class="td footer-top2"></div>
+                    <div class="td footer-top3"></div>
+                  </div>
+                </td>
+                <td>16</td>
+                <td>17</td>
+              </tr>
+              <tr>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+
+                <td class="td-footer">
+                  <div>22</div>
+                  <div class="td--footer">
+                    <div class="td footer-top1"></div>
+                    <div class="td footer-top2"></div>
+                    <div class="td footer-top3"></div>
+                  </div>
+                </td>
+                <td>23</td>
+                <td>24</td>
+              </tr>
+              <tr>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td>31</td>
+              </tr>
+            </tbody>
+            </table>
+          </div>
+        </article>
+        <article class="Download-file">
+          <div class="Downloading">
+            <div class="icon--download">
+             <img src="/images/icons8-download-48 (1).png" alt="">
+            </div>
+            <div class="about--download">
+              <p class="text about--text1">Downloading</p>
+              <p class="text about--text2">75%</p>
+              <p class="text about--text3">10 min remaining</p>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="elemnt-tree">
+        <article class="search">
+          <div class="search--img">
+            <img src="/images/search-svgrepo-com (1).svg" alt="search icon" />
+          </div>
+          <div class="search--input">
+            <input type="text" id="text" placeholder="Search" />
+
+          </div>
+        </article>
+        <article class="Expertise">
+          <div class="Expert--part">
+            <h2>Expertise</h2>
+            <ul>
+              <li class="expert--text expet1"><p>UI Design</p></li>
+              <li class="expert--text expet2"><p>UX Research</p></li>
+              <li class="expert--text expet3"><p>Design Intraction</p></li>
+              <li class="expert--text expet4"><p>Wireframing</p></li>
+            </ul>
+          </div>
+          <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+        </article>
+        <article class="get-task">
+          <div class="task--icon">
+            <img src="/images/push-notification.png" alt="notification icon">
+          </div>
+          <div class="task--text">
+            <p class="task--text1">You have 1 new Message</p class="task--text1">
+            <p class="task--text2">Hi Neelesh , we have a task for you...</p>
+          </div>
+        </article>
+        <article class="section-task">
+          <h2>Task to do</h2>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, error cupiditate! Labore quod odit repellendus!</p>
+   <div class="tasks">
+    <div class="task--part">
+      <div class=" task--part1">
+        <img src="/images/check-tick-svgrepo-com.svg" alt="check tick icon">
+        <span>
+          <h3>Wireframing</h3>
+        </span>
+      </div>
+      <div>
+        <img src="/images/icons8-trash (5).svg" alt="trash icon">
+      </div>
+    </div>
+    <div class="task--part">
+      <div class=" task--part1">
+        <img src="/images/check-tick-svgrepo-com.svg" alt="check tick icon">
+        <span>
+          <h3>Design Intraction</h3>
+        </span>
+      </div>
+      <div>
+        <img src="/images/icons8-trash (5).svg" alt="trash icon">
+      </div>
+    </div>
+    <div class="task--part">
+      <div class=" task--part1">
+        <img src="/images/check-tick-svgrepo-com.svg" alt="check tick icon">
+        <span>
+          <h3>Wireframe Update</h3>
+        </span>
+      </div>
+      <div>
+        <img src="/images/icons8-trash (5).svg" alt="trash icon">
+      </div>
+    </div>
+   </div>
+        </article>
+      </section>
+    </section>
+  
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  </body>
+</html>
